@@ -132,15 +132,22 @@ h1, h2,h3,h4,h5,h6 {
 .p-2 { padding: 2rem ; }
 .p-3 { padding: 3rem ; }
 
+.l-heading {
+    font-size: 3rem;
+}
+
 .list li {
     padding: 0.5rem 0;
     border-bottom: #555 dotted 1px;
     width: 90%;
 }
 
+
+
 .list li a:hover {
     color: var(--primary-color) !important;
 }
+
 
 /* Inner page container */
 .page-container {
@@ -302,5 +309,30 @@ h1, h2,h3,h4,h5,h6 {
 #main-footer .footer-container input[type='submit']:hover {
     font-weight: bold;
     cursor: pointer;
+}
+
+/* Article */
+#article .meta {
+    background: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.8rem;
+}
+
+#article .meta small {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+#article .meta .category-ent {
+    margin: 0;
+}
+
+#article .list li a {
+    display: flex;
+    gap: 4px;
+    align-items: center;
 }
 
